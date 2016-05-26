@@ -1,5 +1,5 @@
 # Dockerfile to create a docker image
-FROM  172.30.128.107:8000/teamsun/node-ppc64le
+FROM  index.tenxcloud.com/docker_library/node:4.4.2
 
 # Add files to the image
 RUN mkdir -p /opt/nodejs
